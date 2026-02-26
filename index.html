@@ -67,27 +67,27 @@
     form.addEventListener("submit", function(event) {
       event.preventDefault();
 
-      const value = input.value.toLowerCase();
+      const value = input.value;
 
-      if (value.includes("49")) {
+      if (value == "49") {
         image.src = "images/lt1Puzzle.jpg";
-      } else if (value.includes("1931")) {
+      } else if (value == "1931") {
         image.src = "images/lt2Puzzle.jpg";
-      } else if (value.includes("83027")) {
+      } else if (value == "83027") {
         image.src = "images/lt3Puzzle.jpg";
-      } else if (value.includes("21")) {
+      } else if (value == "21") {
         image.src = "images/lt4Puzzle.jpg";
-      } else if (value.includes("5")) {
+      } else if (value == "5") {
         image.src = "images/lt5Puzzle.jpg";
-      } else if (value.includes("10")) {
+      } else if (value == "10") {
         image.src = "images/lt6Puzzle.jpg";
-      } else if (value.includes("1924")) {
+      } else if (value == "1924") {
         image.src = "images/lt7Puzzle.jpg";
-      } else if (value.includes("18")) {
+      } else if (value == "18") {
         image.src = "images/lt8Puzzle.jpg";
-      } else if (value.includes("7")) {
+      } else if (value == "7") {
         image.src = "images/lt9Puzzle.jpg";
-      } else if (value.includes("20")) {
+      } else if (value == "20") {
         image.src = "images/lt10Puzzle.jpg";
       } else {
         image.src = "images/default.jpg";
